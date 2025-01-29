@@ -12,8 +12,8 @@ Demo: http://albumy.helloflask.com
 
 clone:
 ```
-$ git clone https://github.com/greyli/albumy.git
-$ cd albumy
+$ git clone https://github.com/grukund/Album-Assignment1.git
+$ cd Album-Assignment1
 ```
 create & activate virtual env then install dependency:
 
@@ -23,10 +23,12 @@ $ python -m venv env  # use `virtualenv env` for Python2, use `python3 ...` for 
 $ source env/bin/activate  # use `env\Scripts\activate` on Windows
 $ pip install -r requirements.txt
 ```
+You need to have file .env with credentials to be able to access Azure Computer Vision API.
 or with Pipenv:
 ```
 $ pipenv install --dev
 $ pipenv shell
+
 ```
 generate fake data then run:
 ```
